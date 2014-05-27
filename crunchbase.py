@@ -1,5 +1,4 @@
 import requests
-import re
 
 class NetworkError(RuntimeError):
     def __init__(self, strerror):
