@@ -33,7 +33,7 @@ class crunchbase:
         '''Pulls the data of the requested organization.
 
         Keyword arguments:
-        companyName -- The company's permalink string.
+        organizationName -- The organization's permalink string.
         '''
         organizationName = organizationName.replace('_', '-').replace(' ', '-')
         queryString = "organization/" + organizationName
